@@ -1,20 +1,12 @@
 <template>
   <div id="app">
-    <DeviceLists></DeviceLists>
-    <DeviceDetail></DeviceDetail>
+    <router-view />
   </div>
 </template>
 
 <script>
-import DeviceLists from "./pages/DeviceLists";
-import DeviceDetail from "./pages/DeviceDetail";
-
 export default {
   name: "App",
-  components: {
-    DeviceLists,
-    DeviceDetail,
-  },
 };
 </script>
 
